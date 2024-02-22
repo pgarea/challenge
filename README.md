@@ -59,3 +59,12 @@ To run it, simply:
 ```shell script
 docker run -i --rm -p 8080:8080 pgomez/technical-challenge
 ```
+
+
+## Running Mongo
+
+In order to run mongo in docker simply:
+
+```
+docker run --name mongo -d mongo:latest
+```
