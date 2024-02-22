@@ -11,7 +11,7 @@ You can run your application in dev mode that enables live coding using:
 - Java 17
 - Mongo
 
-Fill `application.properties` file with the corresponding address for mongo, and the appropriated credentials (default
+Fill `src/main/resources/application.properties` file with the corresponding address for mongo, and the appropriated credentials (default
 in dev: no credentials)
 
 ```shell script
